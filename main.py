@@ -25,7 +25,7 @@ blocked_log = 'blocked_response.log'  # ERROR
 
 
 def write_to_file(file_name, message):
-
+    '''запись в файл лога'''
     with open(file_name, 'a') as file:
         file.write(message + '\n')
 
